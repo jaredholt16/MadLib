@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="description">
+        <h1>JARED'S MADLIBS</h1>
+        <p>Hey! Please enter four words of each type below, seperated by a comma and a space (ex: Man, Woman, Boy, Girl).</p>
+    </div>
+    <div id="content">
+        <div id="menu">
+            <label>Nouns</label>
+            <input id="nounsList">
+            <label>Verbs</label>
+            <input id="verbsList">
+            <label>Adjectives</label>
+            <input id="adjectivesList">
+            <label>Adverbs</label>
+            <input id="adverbsList">
+            <button id="submit">Submit</button>
+            <div id="buttons">
+                <input type="radio" id="christmas">
+                <label>Christmas</label>
+                <input type="radio" id="shopping">
+                <label>Shopping</label>
+                <input type="radio" id="brainstorm">
+                <label>Brainstorm</label>
+            </div>
+        </div>
+        <div id="storyDisplay">
+            <div id="errorMessage">
+                You haven't selected a story type!
+            </div>
+            <div class="story" id="christmasStory">
+                Every Christmas we  <span class="verb"></span>  to a   <span class="adjective"></span>   tree farm far away. This is not just any   <span class="adjective"></span>   tree farm. My dad and I    <span class="verb"></span>   onto the   <span class="noun"></span>   to    <span class="verb"></span>   for the perfect   <span class="noun"></span>  .  Some people like them   <span class="adjective"></span>  , but I prefer them   <span class="adjective"></span>  . After  searching for hours I usually   <span class="adverb"></span>   exclaim "Dad! The perfect tree is over   there!" Off we    <span class="verb"></span>   to get the tree. The problem is we always forget the  <span class="noun"></span>   and the  <span class="noun"></span>  . But at the end of the day we    <span class="adverb"></span>   get the tree and head home    <span class="adverb"></span>  . "I wish it was Christmas all year round"  I    <span class="adverb"></span>   think to myself.
+            </div>
+            <div class="story" id="shoppingStory">
+                Today I went shopping. When I arrived at the store I saw a   <span class="adjective"></span>     <span class="noun"></span>  , who upon noticing me    <span class="adverb"></span>   said "I need to   <span class="verb"></span>  ". "Well,   that was   <span class="adjective"></span>  " I thought to myself and walked in the store. The store had rearranged it\s inventory, so I felt    <span class="adverb"></span>   lost. I   walked up to store clerk and said    <span class="adverb"></span>   "I am looking for a   <span class="adjective"></span>     <span class="noun"></span>   that doesn’t    <span class="verb"></span>   as often as the last one I had." The store clerk    looked at me with a   <span class="adjective"></span>   look in his eye and said, "What you are looking for can be found by the   <span class="noun"></span>  , if you see a   <span class="noun"></span>   that    <span class="adverb"></span>   can    <span class="verb"></span>  , then you've gone too far." As I tried to understand his directions, I thought to myself, "I should have just ordered it    on amazon.com, Their products seem to    <span class="verb"></span>   the perfect amount
+            </div>
+            <div class="story" id="brainstormStory">
+                Many say that brainstorming is   <span class="adjective"></span>   and does not   <span class="verb"></span>  . However, with the combination of the right computer and   <span class="noun"></span>   anyone  can lead a good    <span class="verb"></span>  . When you have    <span class="adverb"></span>   pulled together a   <span class="adjective"></span>      group of   <span class="noun"></span>   in a big room with lots of TVs then  magical things will happen. In the past we have    <span class="adverb"></span>   suggested  participants work together to find the most   <span class="adjective"></span>   solution. The   most difficult part is many   <span class="adjective"></span>     <span class="noun"></span>   like to   <span class="verb"></span> . This has proved to be    <span class="adverb"></span>   problematic.  But in the end the most important   <span class="noun"></span>   usually is brought to light.  Typically we try to encourage ideas to    <span class="verb"></span>  , and never shut ideas  down. This concludes our instructions. Thanks for    <span class="adverb"></span>   listening!
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="words.js"></script>
+</body>
+</html>
